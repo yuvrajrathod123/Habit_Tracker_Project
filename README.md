@@ -12,5 +12,8 @@
 + User will have choice to choose the habit type as 'yes or no' and 'measurable'.
 
 ## Screenshot:-
+<img src="https://user-images.githubusercontent.com/110601973/188712326-dc96ddc4-a87f-47d5-a134-f08e3ef1b992.jpg" width=50% height=50%>
+
+<img src="https://user-images.githubusercontent.com/110601973/188715705-84eec11b-4e17-4c6a-8b3b-f1658066174a.jpg" width=50% height=50%>
 
 
