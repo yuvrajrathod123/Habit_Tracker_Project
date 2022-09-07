@@ -6,7 +6,7 @@
 
 ## Features:-
 + Users can create their own account to access it using login id.
-+ User can add reminder to their habits to remind them of the tasks they need to complete.
++ Users can add reminder to their habits to remind them of the tasks they need to complete.
 + Once the tasks are done the user can mark them as complete.
 + Users can see their progress with help of the statistics and graph.
 + Users will have choice to choose the habit type as 'yes or no' and 'measurable'.
