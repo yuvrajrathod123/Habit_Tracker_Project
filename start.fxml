@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.ColorInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="53.0" prefWidth="600.0" style="-fx-background-color: #1f77cf;" />
+      <ImageView fitHeight="400.0" fitWidth="651.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Downloads/download%20(1).jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#050f1b" layoutX="26.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Habitude">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="459.0" layoutY="18.0" mnemonicParsing="false" style="-fx-background-image: #179637;" text="Login" textFill="#efeaea">
+         <effect>
+            <ColorInput height="23.39" paint="#179637" width="46.79" />
+         </effect>
+      </Button>
+      <Text fill="#f2ebeb" layoutX="467.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" textAlignment="CENTER" />
+      <Button layoutX="301.0" layoutY="134.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="245.0" style="-fx-background-color: #179637;" text="Get Started" textFill="#f2ecec">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="237.0" fitWidth="245.0" layoutX="26.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Downloads/Screenshot__31_-removebg-preview%20(1).png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

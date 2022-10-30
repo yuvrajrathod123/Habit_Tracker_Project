@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="167.0" style="-fx-background-color: #000000;">
+         <children>
+            <Text fill="#e1dcdc" layoutX="46.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Habitude">
+               <font>
+                  <Font name="System Bold Italic" size="22.0" />
+               </font>
+            </Text>
+            <Separator layoutY="110.0" prefWidth="200.0" />
+            <Button layoutX="7.0" layoutY="140.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="185.0" style="-fx-background-color: #000000;" text="Yes Or No" textFill="#f7f2f2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="7.0" layoutY="191.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="185.0" style="-fx-background-color: #000000;" text="Measurable" textFill="#f7f2f2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="7.0" layoutY="235.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="185.0" style="-fx-background-color: #000000;" text="Progress" textFill="#f7f2f2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="1.0" layoutY="333.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="185.0" style="-fx-background-color: #000000;" text="Log Out" textFill="#f7f2f2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Text layoutX="255.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Habit : Measurable">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#080808" layoutX="237.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name of habit">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <TextField layoutX="219.0" layoutY="111.0" prefHeight="25.0" prefWidth="200.0" />
+      <Text fill="#232020" layoutX="481.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Font color">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <ColorPicker layoutX="459.0" layoutY="111.0">
+         <value>
+            <Color red="1.0" green="0.9296296238899231" blue="0.9648148417472839" />
+         </value>
+      </ColorPicker>
+      <Text fill="#0d0909" layoutX="237.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <TextField layoutX="219.0" layoutY="175.0" prefHeight="25.0" prefWidth="351.0" text="eg How long did you run today?" />
+      <TextField layoutX="218.0" layoutY="234.0" prefHeight="25.0" prefWidth="164.0" />
+      <SplitMenuButton layoutX="219.0" layoutY="290.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="183.0" text="weekly">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </SplitMenuButton>
+      <Text fill="#0d0909" layoutX="253.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Target">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fill="#0d0909" layoutX="451.0" layoutY="219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unit">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fill="#0d0909" layoutX="233.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Frequency" wrappingWidth="78.24053955078125">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <Button layoutX="370.0" layoutY="328.0" mnemonicParsing="false" text="Save" />
+      <TextField layoutX="403.0" layoutY="234.0" />
+   </children>
+</Pane>
