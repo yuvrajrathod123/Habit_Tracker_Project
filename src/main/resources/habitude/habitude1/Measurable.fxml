@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="habitude.habitude1.MeasurableController">
+   <children>
+      <AnchorPane layoutY="-2.0" prefHeight="413.0" prefWidth="200.0" style="-fx-background-color: #000000;">
+         <children>
+            <Text fill="#e1dcdc" layoutX="46.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Habitude">
+               <font>
+                  <Font name="System Bold Italic" size="22.0" />
+               </font>
+            </Text>
+            <Separator layoutY="110.0" prefWidth="200.0" />
+            <Button fx:id="yesorno" layoutX="13.0" layoutY="184.0" mnemonicParsing="false" onAction="#yesorno" prefHeight="32.0" prefWidth="162.0" style="-fx-background-color: #000000; -fx-border-color: #eddddd;" text="Yes Or No" textFill="#f7f2f2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="Measurable" layoutX="15.0" layoutY="238.0" mnemonicParsing="false" onAction="#Measurable" prefHeight="32.0" prefWidth="162.0" style="-fx-background-color: #000000; -fx-border-color: #eddddd;" text="Measurable" textFill="#f7f2f2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="score" layoutX="16.0" layoutY="286.0" mnemonicParsing="false" onAction="#score" prefHeight="32.0" prefWidth="162.0" style="-fx-background-color: #000000; -fx-border-color: #eddddd;" text="Score" textFill="#f7f2f2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="logout" layoutX="15.0" layoutY="344.0" mnemonicParsing="false" onAction="#logout" prefHeight="32.0" prefWidth="162.0" style="-fx-background-color: #000000; -fx-border-color: #eddddd;" text="Log Out" textFill="#f7f2f2">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="home" layoutX="15.0" layoutY="135.0" mnemonicParsing="false" onAction="#home" prefHeight="32.0" prefWidth="162.0" style="-fx-background-color: #190000; -fx-border-color: #eddddd;" text="Home" textFill="#efecec">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Text layoutX="255.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Habit : Measurable">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#080808" layoutX="227.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name of habit">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <TextField fx:id="habitname" layoutX="219.0" layoutY="111.0" prefHeight="25.0" prefWidth="200.0" promptText="Enter your Habit name" />
+      <Text fill="#0d0909" layoutX="227.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Question">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <TextField fx:id="question" layoutX="219.0" layoutY="175.0" prefHeight="25.0" prefWidth="351.0" promptText="eg How long did you run today?" />
+      <TextField fx:id="target" layoutX="218.0" layoutY="234.0" prefHeight="25.0" prefWidth="164.0" promptText="enter target" />
+      <Text fill="#0d0909" layoutX="225.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Target">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fill="#0d0909" layoutX="406.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unit">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fill="#0d0909" layoutX="225.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Frequency" wrappingWidth="78.24053955078125">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <Button fx:id="save" layoutX="362.0" layoutY="354.0" mnemonicParsing="false" onAction="#save" text="Save" />
+      <TextField fx:id="unit" layoutX="403.0" layoutY="234.0" promptText="Enter unit" />
+      <TextField fx:id="frequency" layoutX="218.0" layoutY="286.0" prefHeight="25.0" prefWidth="257.0" promptText="e.g daily,weekly ,monthly" />
+      <Label fx:id="message" layoutX="296.0" layoutY="327.0" prefHeight="17.0" prefWidth="173.0" textFill="#fb0f0f" />
+   </children>
+</Pane>
